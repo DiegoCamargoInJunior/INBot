@@ -7,11 +7,11 @@ bot = telebot.TeleBot(CHAVE_API)
 
 def uivo():
   uivo = 'A'
-  for n in range(randint(0, 3)):
+  for n in range(randint(0, 5)):
     uivo = f'{uivo}a'
-  for n in range(randint(0, 6)):
+  for n in range(randint(1, 15)):
     uivo = f'{uivo}u'
-  for n in range(randint(0, 3)):
+  for n in range(randint(0, 5)):
     uivo = f'{uivo}!'
   return uivo
 
