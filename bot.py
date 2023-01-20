@@ -15,7 +15,7 @@ def uivo():
     uivo = f'{uivo}!'
   return uivo
 
-@bot.message_handler(commands=["oque_um_lobo_faz?"])
+@bot.message_handler(commands=["oque_um_lobo_faz"])
 def responder(mensagem):
   bot.reply_to(mensagem, "A gente uiva")
   for n in range(randint(1, 4)):
